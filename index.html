@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Qoʻshish amalini bajarib beruvchi dastur</title>
+    <style>
+        body {
+            background-color: #808080;
+        }
+        table {
+            background-color: orange;
+            border: 17px solid;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Qoʻshish amalini bajaruvchi dastur</legend>
+        <form oninput="JAVOBI.value=parseInt(a.value)+parseInt(b.value)">
+            <table>
+                <tr>
+                    <td>
+                        a = <input type="number" id="a" placeholder="raqamni kiriting:">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <hr>+</hr>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        b = <input type="number" id="b" placeholder="raqamni kiriting:">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        = <output name="JAVOBI" id="JAVOBI"></output>
+                    </td>
+                </tr>
+            </table>
+            <input type="reset" value="o`chirish">
+        </form>
+    </fieldset>
+</body>
+</html>
